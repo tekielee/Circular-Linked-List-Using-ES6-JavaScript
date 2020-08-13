@@ -6,7 +6,7 @@ class ListNode {
 }
 
 class CircularLinkedList {
-	contructor() {
+	constructor() {
 		this.firstNode = null;
 		this.totalNode = 0;
 	}
@@ -25,6 +25,7 @@ class CircularLinkedList {
 		}
 		newNode.next = this.firstNode;
 		this.totalNode++;
+		
 		return true;
 	}
 	
