@@ -14,7 +14,7 @@ class CircularLinkedList {
 	insertAtEnd(data) {
 		let newNode = new ListNode(data);
 		
-		if(this.firstNode == null) {
+		if(this.firstNode === null) {
 			this.firstNode = newNode;
 		} else {
 			let currentNode = this.firstNode;
